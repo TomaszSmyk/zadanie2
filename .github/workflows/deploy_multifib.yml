@@ -63,7 +63,7 @@ jobs:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: Fib-multi
-        environment_name: Fibmulti-env-1
+        environment_name: Fibmulti-env-tomasz-smyk
         version_label: zadanie2
         region: us-east-1
         deployment_package: deploy.zip
