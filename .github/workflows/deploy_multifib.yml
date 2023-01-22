@@ -64,6 +64,6 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: Fib-multi
         environment_name: Fibmulti-env-1
-        version_label: zadanie2
+        version_label: Sample Application
         region: us-east-1
         deployment_package: deploy.zip
